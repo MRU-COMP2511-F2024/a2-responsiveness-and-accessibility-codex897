@@ -1,0 +1,41 @@
+p::first-letter {
+    font-size: 2em;
+    color:#39797a;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+
+figure{
+    width:250px;
+    height:250px;
+    float:right;
+}
+figure img{
+    width:250px;
+    height:250px;
+    float:right;
+}
+
+figcaption{
+    float:right;
+}
+footer p::first-letter {
+    color: inherit; 
+    font-size: inherit; 
+    font-weight: inherit; 
+    font-family: inherit;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px;
+    padding: 30px; 
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}

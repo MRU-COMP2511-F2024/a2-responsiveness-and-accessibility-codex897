@@ -1,0 +1,39 @@
+figure img{
+    width:250px;
+    height:250px;
+    display:block;
+    margin: 0 auto;
+}
+
+
+figure {
+
+    text-align: left; 
+    display : inline-block;
+    margin:0;
+    border:3px solid #60c0bc;
+    background-color:lightgray;
+}
+
+.left {
+    width: 40%;
+    padding: 5px;
+    float: left;
+}
+
+figcaption {
+    margin-top: 0px;
+    
+}
+
+.right {
+    width: 40%;
+    padding: 5px;
+    float: right;
+}
+
+.wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
