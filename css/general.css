@@ -75,3 +75,36 @@ a:visited {
 footer{
     background-color: #60c0bc;
 }
+
+.hamburger{
+    display:none;
+}
+@media screen and (max-width: 590px) {
+    .navlink {
+        display: none;
+        flex-direction: column; 
+        background-color: #333;
+        position: absolute;
+        top: 50px; 
+        right: 10px;
+        width: 150px; 
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #logo{
+        display:none;
+    }
+    .navlink.show {
+        display: flex; 
+    }
+
+    .hamburger {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        color: black;
+        cursor: pointer;
+    }
+}

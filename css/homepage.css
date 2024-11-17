@@ -25,7 +25,7 @@ form{
     border-top-style:double;
     border-right-style:double;
     border-left-style:double;
-    width:60%;
+    width:50%;
     margin-left: auto;
     margin-right: auto;
 
@@ -49,3 +49,56 @@ form * {
     border: 1px solid #ccc;
 }
 
+
+footer{
+    background-color: white;
+}
+
+#refer{
+    background-color: #60c0bc;
+}
+
+@media screen and (max-width: 770px) {
+    form{
+        width:100%;
+    }
+}
+
+
+@media screen and (max-width: 590px) {
+    /* Adjusting layout for small devices */
+    .grid-container {
+        display: block; /* Changes grid to block layout for single column */
+    }
+
+    figure img {
+        width: 100%; /* Image takes full width */
+        height: auto; /* Maintains aspect ratio */
+    }
+
+    form {
+        width: 100%; /* Form takes full width */
+    }
+
+    table {
+        width: 100%; /* Table takes full width */
+    }
+
+    body {
+        font-size: 85%; /* Reduces the base font size */
+    }
+
+    /* Adjust headers */
+    h1, h2, h3, h4, h5, h6 {
+        font-size: smaller; /* Automatically scales down headings */
+    }
+
+    /* Adjust specific elements if needed */
+    p, table, th, td, input, form, .grid-item {
+        font-size: 0.9em; /* Reduce text size to 90% of default */
+    }
+
+    .grid-item {
+        margin-bottom: 20px; /* Adds spacing between items */
+    }
+}
