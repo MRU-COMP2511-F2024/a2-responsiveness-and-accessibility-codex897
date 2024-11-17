@@ -39,3 +39,51 @@ footer p::first-letter {
     text-align: center;
     border: 1px solid #ccc;
 }
+@media screen and (max-width: 590px) {
+    /* Adjusting layout for small devices */
+    .grid-container {
+        grid-template-areas:
+            "header"
+            "article1"
+            "article2"
+            "aside";
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    form {
+        width: 100%; /* Form takes full width */
+    }
+
+    table {
+        width: 100%; /* Table takes full width */
+    }
+
+    body {
+        font-size: 85%; /* Reduces the base font size */
+    }
+
+    /* Adjust headers */
+    h1, h2, h3, h4, h5, h6 {
+        font-size: smaller; /* Automatically scales down headings */
+    }
+
+    /* Adjust specific elements if needed */
+    p, table, th, td, input, form, .grid-item {
+        font-size: 0.9em; /* Reduce text size to 90% of default */
+    }
+
+    .grid-item {
+        display: block;
+        margin-bottom: 20px; /* Adds spacing between items */
+    }
+    #logo
+    header {
+        display: header;
+        text-align: center;
+        flex-direction: column;
+    }
+    header ul{
+        display: none;
+    }
+}
