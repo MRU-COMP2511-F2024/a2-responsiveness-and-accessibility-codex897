@@ -16,7 +16,11 @@
 
 <!--HTML Comment-->
 <body id="top">
-    <div class="navbar" >
+    <div id="skip">
+        <a href="#maincontent">Skip to Main Content</a>
+    </div>
+
+    <header class="navbar" >
         <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
             &#9776; 
         </button>
@@ -27,21 +31,21 @@
             <li class="articlepage"><a href="article.html">Article</a></li>
             <li class="meetuspage"><a href="meet_us.html">Meet Us</a></li>
         </ul>
-    </div>
+    </header>
 
 
-    <h1 id="homepage"> Robbie's Roboverse - A Guide to Robots </h1>
+    <h1 id="maincontent"> Robbie's Roboverse - A Guide to Robots </h1>
     <h2>By Alex Yoseph and Rebecca Hamshaw</h2>
     
     
 
-    <p>Robbie the Robot: Where Innovation Meets Imagination!</p>
+    <h4>Robbie the Robot: Where Innovation Meets Imagination!</h4>
 
     <figure>
-        <img src="./images/robotpic.jpg" alt="robotpic">
+        <img src="./images/robotpic.jpg" alt="a white robot with wheels">
         <br>
         <figcaption> 
-            A picture of a robot sourced from Chatgpt<sup>8</sup> <cite> A Robot pic</cite>
+            A picture of a robot sourced from Chatgpt<sup>8</sup>
         </figcaption>
     </figure>
    
@@ -59,11 +63,11 @@
         <div class="grid-item">
             <h1>Features and Prices of Different Robots</h1>
     <table >
- 
+        <caption>Features and Prices of Different Robots</caption>
         <tr>
-            <th>Robot Name</th>
-            <th>Best Feature</th>
-            <th>Price</th>
+            <th scope="col">Robot Name</th>
+            <th scope="col">Best Feature</th>
+            <th scope="col">Price</th>
         </tr>
 
         <tr>

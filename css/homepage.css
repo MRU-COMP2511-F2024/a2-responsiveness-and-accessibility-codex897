@@ -1,7 +1,25 @@
 article{
     border-radius: 0cm;
-
 }
+
+#skip{
+    position:absolute;
+    top:-10000px;
+    width:1px;
+    height:1px;
+}
+
+#skip a:focus{
+    top:0px;
+    width:auto;
+    height:auto;
+    background-color: white;
+}
+
+button{
+    cursor: pointer;
+}
+
 table, th, td {
     border: 1px solid black;
   }
@@ -66,39 +84,36 @@ footer{
 
 
 @media screen and (max-width: 590px) {
-    /* Adjusting layout for small devices */
     .grid-container {
-        display: block; /* Changes grid to block layout for single column */
+        display: block; 
     }
 
     figure img {
-        width: 100%; /* Image takes full width */
-        height: auto; /* Maintains aspect ratio */
+        width: 100%; 
+        height: auto; 
     }
 
     form {
-        width: 100%; /* Form takes full width */
+        width: 100%;
     }
 
     table {
-        width: 100%; /* Table takes full width */
+        width: 100%; 
     }
 
-    body {
-        font-size: 85%; /* Reduces the base font size */
+    body, footer{
+        font-size: 90%; 
     }
 
-    /* Adjust headers */
     h1, h2, h3, h4, h5, h6 {
-        font-size: smaller; /* Automatically scales down headings */
+        font-size: smaller; 
     }
 
-    /* Adjust specific elements if needed */
     p, table, th, td, input, form, .grid-item {
-        font-size: 0.9em; /* Reduce text size to 90% of default */
+        font-size: 0.9em; 
     }
 
     .grid-item {
-        margin-bottom: 20px; /* Adds spacing between items */
+        margin-bottom: 20px; 
     }
 }

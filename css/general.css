@@ -80,6 +80,7 @@ footer{
 .hamburger{
     display:none;
 }
+
 @media screen and (max-width: 590px) {
     .navlink {
         display: none;
