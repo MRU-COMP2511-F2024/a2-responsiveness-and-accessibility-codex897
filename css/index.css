@@ -50,14 +50,14 @@ form{
 }
 
 form * {
-    margin-bottom: 2px; /* Adds space between form elements */
+    margin-bottom: 2px; 
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
-    grid-gap: 20px; /* Adds space between grid items */
-    padding: 20px; /* Adds padding around the grid */
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px;
+    padding: 20px; 
 }
 
 .grid-item {
@@ -105,8 +105,14 @@ footer{
         font-size: 90%; 
     }
 
-    h1, h2, h3, h4, h5, h6 {
-        font-size: smaller; 
+    h1 {
+        font-size: 5.9vw;
+    }
+    h2 {
+        font-size: 3.0vh;
+    }
+    p {
+        font-size: 2vmin;
     }
 
     p, table, th, td, input, form, .grid-item {

@@ -34,10 +34,9 @@
     width: 60px;
     height: 60px;
     float:left;
-    
-    
-    
+
 }
+
 .navbar div{
     display: inline-block;
     width: 600px;
@@ -56,6 +55,20 @@
 
 }
 
+#skip{
+    position:absolute;
+    top:-10000px;
+    width:1px;
+    height:1px;
+}
+
+#skip a:focus{
+    top:0px;
+    width:auto;
+    height:auto;
+    background-color: white;
+}
+
 body {
 
 
@@ -66,7 +79,7 @@ body {
 }
 
 a:link {
-    color: rgb(74, 109, 120);
+    color: rgb(26, 37, 40);
 }
 
 a:visited {
@@ -81,8 +94,21 @@ footer{
     display:none;
 }
 
+@media screen and (max-width: 790px) {
+    .navbar{
+        font-size: 20px;
+    }
+
+    #logo{
+        width: 40px;
+        height:40px;
+    }
+}
+
+
 @media screen and (max-width: 590px) {
     .navlink {
+  
         display: none;
         flex-direction: column; 
         background-color: #333;

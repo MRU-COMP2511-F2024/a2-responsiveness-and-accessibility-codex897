@@ -8,16 +8,22 @@ p::first-letter {
 figure{
     width:250px;
     height:250px;
-    float:right;
+    float:none;
+    margin: 0 auto; /* Center the figure horizontally */
+    margin-bottom: 10px;
+    text-align: center;
+    
 }
 figure img{
     width:250px;
     height:250px;
-    float:right;
+    float:center;
+    margin:0;
 }
 
 figcaption{
-    float:right;
+    float:center;
+    margin:0;
 }
 footer p::first-letter {
     color: inherit; 
@@ -39,6 +45,15 @@ footer p::first-letter {
     text-align: center;
     border: 1px solid #ccc;
 }
+
+@media screen and (max-width: 790px){
+    figure img {
+        width:200px;
+        height:200px;
+    }
+}
+
+
 @media screen and (max-width: 590px) {
     /* Adjusting layout for small devices */
     .grid-container {
@@ -60,14 +75,19 @@ footer p::first-letter {
     }
 
     body {
-        font-size: 85%; /* Reduces the base font size */
+        font-size: 90%; /* Reduces the base font size */
     }
 
     /* Adjust headers */
-    h1, h2, h3, h4, h5, h6 {
-        font-size: smaller; /* Automatically scales down headings */
+    h1 {
+        font-size: 5.9vw;
     }
-
+    h2 {
+        font-size: 3.0vh;
+    }
+    p {
+        font-size: 2vmin;
+    }
     /* Adjust specific elements if needed */
     p, table, th, td, input, form, .grid-item {
         font-size: 0.9em; /* Reduce text size to 90% of default */
@@ -77,7 +97,10 @@ footer p::first-letter {
         display: block;
         margin-bottom: 20px; /* Adds spacing between items */
     }
-    #logo
+    #logo{
+        display:none;
+    }
+
     header {
         display: header;
         text-align: center;
@@ -86,4 +109,6 @@ footer p::first-letter {
     header ul{
         display: none;
     }
+
+    
 }
