@@ -1,4 +1,8 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
 .navbar{
     background-color: #60c0bc;
     position: sticky;
@@ -72,7 +76,6 @@
 body {
 
 
-    margin: 5px;
     align-items: center;
     justify-content: center;
     text-align: center; 
