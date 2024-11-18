@@ -53,6 +53,22 @@ form * {
     margin-bottom: 2px; 
 }
 
+input.text:focus{
+    background-color: aquamarine;
+    color:black;
+}
+
+input[type="radio"]:focus + label,
+input[type="checkbox"]:focus + label {
+    background-color: aquamarine;
+    color:black;
+}
+
+select:focus {
+    background-color: aquamarine;
+    color:black;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr; 
