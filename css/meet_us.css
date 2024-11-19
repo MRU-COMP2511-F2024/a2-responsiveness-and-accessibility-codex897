@@ -1,3 +1,4 @@
+/* @@ -1,39 +1,90 @@ */
 figure img{
     width:250px;
     height:250px;
@@ -23,7 +24,7 @@ figure {
 
 figcaption {
     margin-top: 0px;
-    
+
 }
 
 #skip{
@@ -32,14 +33,12 @@ figcaption {
     width:1px;
     height:1px;
 }
-
 #skip a:focus{
     top:0px;
     width:auto;
     height:auto;
     background-color: white;
 }
-
 .right {
     width: 40%;
     padding: 5px;
@@ -51,6 +50,7 @@ figcaption {
     display: table;
     clear: both;
 }
+<<<<<<< HEAD
 
 @media (max-width: 790px) {
     figure img {
@@ -60,22 +60,28 @@ figcaption {
 }
 
 @media (max-width: 590px) {
+=======
+@media screen and (max-width: 790px) {
+    figure img {
+        width:100%;
+        height:100%;
+    }
+}
+@media screen and (max-width: 590px) {
+>>>>>>> 2c73d8dc4800dd1218a70299f1ffed6265dd4fa7
     .wrapper {
         text-align: center; 
     }
-
     .left, .right {
-        width: 100%; 
+        width: 100%;
         float: none;
         margin: 0 auto; 
     }
-
     figure {
         text-align: center;
         display: block;
         margin: 10px auto; 
     }
-
     h1 {
         font-size: 5.9vw;
     }
@@ -85,6 +91,10 @@ figcaption {
     p {
         font-size: 2vmin;
     }
+<<<<<<< HEAD
 }
 
 
+=======
+}
+>>>>>>> 2c73d8dc4800dd1218a70299f1ffed6265dd4fa7
