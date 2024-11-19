@@ -51,58 +51,6 @@ figcaption {
     display: table;
     clear: both;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 770px) {
-    form{
-        width:100%;
-    }
-}
-@media screen and (max-width: 590px) {
-    navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 15px;
-    }
-
-    .navbar img {
-        align-self: center;
-        height: 40px; /* Adjust size for smaller screens */
-        margin-bottom: 10px;
-    }
-
-    .navbar ul {
-        display: none;
-        width: 100%;
-        text-align: left;
-        padding: 0;
-    }
-
-    .navbar li {
-        display: none;
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-
-    .hamburger {
-        display: block;
-    }
-
-    .wrapper {
-        padding: 10px;
-    }
-
-    .col {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    header h1 {
-        font-size: 24px;
-        text-align: center;
-    }
-
-}
-=======
 
 @media (max-width: 790px) {
     figure img {
@@ -140,4 +88,3 @@ figcaption {
 }
 
 
->>>>>>> 9a63dddcbe2c6129d78547adc53205bc6535935d
